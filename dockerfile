@@ -1,4 +1,4 @@
-FROM python:3.9.15-alpine3.16
+FROM python:3.9.15-slim-bullseye
 WORKDIR /app 
 COPY . .
 RUN "pip install pytest"
